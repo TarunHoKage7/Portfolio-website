@@ -112,7 +112,7 @@ nav > ul > li:nth-child(n + 1){
 }
 
 .card-title{
-  font-size: large;
+  font-size: larger;
   position: relative;
   top: 7%;
   left: 7%;
