@@ -1,0 +1,112 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+
+:root{
+  --border-color: #00d5ff;
+  --shaded-background-color: #000000;
+  --footer-shade: #000000;
+  --light-background-color: #121e26;
+  --border: 3px solid var(--border-color);
+  --text-color: rgb(195, 252, 255);
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+body,html{
+  /*background: url("/assets/Word-Art1.jpeg");*/
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0 0;
+  padding: 0 0;
+  scroll-behavior: smooth;
+  background-color: var(--shaded-background-color);
+  border-left: var(--border);
+  border-right: var(--border);
+  color: var(--text-color);
+}
+
+nav{
+  left: 0;
+  top: 0;
+  margin: 0 0;
+  padding: 0 0;
+  border-bottom: var(--border);
+}
+
+#body-grid{
+  margin: 0 0;
+  padding: 0 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+nav > ul{
+  list-style-type: none;
+  margin: 0 0;
+  padding:0 0;
+}
+
+nav > ul > *{
+  display: inline-block;
+  margin: 30px 2% 30px 2%;
+  font-size: x-large;
+}
+
+nav > ul a{
+  text-decoration: none;
+  color: var(--border-color);
+  font-size: 80%;
+  font-weight: bolder;
+  width: 9%;
+}
+
+#nav-title{
+  cursor:default;
+  background-color: var(--shaded-background-color);
+  border-left: var(--border);
+  border-right:var(--border);
+  margin: 0 0;
+  padding: 30px 5% 30px 5%;
+  font-size: 150%;
+}
+
+nav > ul > li:nth-child(n + 1){
+  margin-left: 5%;
+}
+
+.category{
+  display: block;
+  margin: 2%;
+  border: var(--border);
+  border-radius: 3%;
+  position: relative;
+}
+
+.cat-title{
+  display: block;
+  margin: 0 0;
+  min-width: 100%;
+  text-align: center;
+  background-color: var(--border-color);
+  padding: 1%;
+  margin-top: 1%;
+}
+
+.project-list{
+  list-style-type: none;
+}
+
+.project-card{
+  display: block;
+  background-color: var(--light-background-color);
+  border: var(--border);
+  margin: 1.5%;
+}

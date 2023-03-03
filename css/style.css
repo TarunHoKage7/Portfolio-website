@@ -1,0 +1,454 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+
+  :root{
+    --border-color: #00d5ff;
+    --shaded-background-color: #000000;
+    --footer-shade: #000000;
+    --light-background-color: #121e26;
+    --border: 3px solid var(--border-color);
+    --text-color: rgb(195, 252, 255);
+  }
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body,html{
+    /*background: url("/assets/Word-Art1.jpeg");*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 0;
+    padding: 0 0;
+    scroll-behavior: smooth;
+    background-color: var(--light-background-color);
+    border-left: var(--border);
+    border-right: var(--border);
+    color: var(--text-color);
+  }
+
+  nav{
+    left: 0;
+    top: 0;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  #body-grid{
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  nav > ul{
+    list-style-type: none;
+    margin: 0 0;
+    padding:0 0;
+  }
+
+  nav > ul > *{
+    display: inline-block;
+    margin: 30px 2% 30px 2%;
+    font-size: x-large;
+  }
+
+  nav > ul a{
+    text-decoration: none;
+    color: var(--border-color);
+    font-size: 80%;
+    font-weight: bolder;
+    width: 9%;
+  }
+
+  #nav-title{
+    cursor:default;
+    background-color: var(--shaded-background-color);
+    border-left: var(--border);
+    border-right:var(--border);
+    margin: 0 0;
+    padding: 30px 5% 30px 5%;
+    font-size: 150%;
+  }
+
+  nav > ul > li:nth-child(n + 1){
+    margin-left: 5%;
+  }
+
+  .row{
+    position: relative;
+    display: flex;
+    align-content: stretch;
+    height: 80%;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    max-width: 100%;
+  }
+
+  #sec1{
+    float: left;
+    height: 80%;
+    margin: 0 0;
+    padding: 0 0;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  #sec1 > img{
+    display: block;
+    border-bottom: var(--border);
+  }
+
+  #sec2{
+    border-right: var(--border);
+    border-left: var(--border);
+    float: left;
+    padding: 10.4% 8% 19% 8%;
+  }
+
+  #sec2 > h1{
+    font-size: xx-large;
+    margin: 26.5px;
+  }
+
+  #sec2 > p{
+    font-size: larger;
+  }
+
+  #sec3{
+    background-color: var(--shaded-background-color);
+    padding: 10% 2% 3% 2%;
+  }
+
+  #sec3 > h2{
+    font-size: xx-large;
+
+  }
+
+  #sec3 > p{
+    font-size: larger;
+  }
+
+  #sec4{
+    border-right:2px solid var(--border-color);
+    min-height: 100%;
+    padding: 15% 5% 142px 5%;
+  }
+
+  #sec4 > a > img{
+    box-shadow: 3px 3px 20px var(--border-color);
+  }
+
+  #sec4 a ~a{
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    color: var(--border-color);
+  }
+
+  #sec5{
+    position: relative;
+    background-color: var(--shaded-background-color);
+    border-right:3px solid var(--border-color);
+    width: 39%;
+    min-height: 100%;
+    padding: 12% 5% 8% 5%;
+  }
+
+  #experience-tile > p{
+    line-height: 1.15em;
+    font-size: large;
+  }
+
+  #left-arrow{
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    background-color: var(--footer-shade);
+    font-size: xx-large;
+    /*margin-left: -16.5%;*/
+    /*padding: 25px;*/
+    cursor: pointer;
+    text-shadow: var(--border-color) 2px 0 10px;
+  }
+
+  #right-arrow{
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    background-color: var(--footer-shade);
+    font-size: xx-large;
+    cursor: pointer;
+    text-shadow: var(--border-color) 2px 0 10px;
+  }
+
+  #experience-tile img{
+    padding: 30% 20% 0 20%;
+  }
+
+  #sec6{
+    width: 30%;
+    height: 100%;
+  }
+
+  #sec6 > img{
+    width: 100%;
+    height: 100%;
+
+  }
+
+  #sec7{
+    background-color: var(--shaded-background-color);
+    border-right:3px solid var(--border-color);
+    padding: 10% 8% 10% 8%;
+  }
+
+  #sec7 > ul{
+    padding-top: 3%;
+    font-size: larger;
+    margin: 0 0;
+  }
+  #sec7 li{
+    padding: 5% 0 2% 0;
+    margin: 0 0;
+  }
+
+  #sec8{
+    border-right:3px solid var(--border-color);
+    width: 685px;
+    min-height: 100%;
+    padding: 100px 10% 397px 10%;
+  }
+
+
+  #sec9{
+    background-color: var(--shaded-background-color);
+    font-size: x-large;
+    width: 625px;
+    min-height: 100%;
+    padding: 100px 5% 217px 5%;
+  }
+
+  #sec10{
+    border-right:3px solid var(--border-color);
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: var(--shaded-background-color);
+  }
+
+  #sec10 img{
+    margin: 0 0;
+    display: block;
+  }
+
+  #sec10 > a{
+    text-decoration: none;
+    color: var(--border-color);
+  }
+
+  #sec10 h2{
+    display: inline;
+    margin-left: 250px;
+  }
+
+
+  #sec11{
+    background-color: var(--shaded-background-color);
+    border-right:3px solid var(--border-color);
+    padding: 200px 4% 266px 4%;
+  }
+
+  #sec12{
+    width: 80%;
+    height: 100%;
+    padding: 7% 2% 0 2%;
+  }
+
+  #sec12 > a{
+    box-shadow: 15px 10px 15px rgb(17, 101, 101);
+    text-decoration: none;
+    color: var(--border-color);
+  }
+
+  #sec12 img{
+    width: 60%;
+    height: 60%;
+  }
+
+  #sec12 h2{
+
+    padding-left: 10%;
+  }
+
+  #sec13{
+    background-color: var(--footer-shade);
+    border-right:3px solid var(--border-color);
+    padding: 5px 12% 5px 12%;
+    height: 40%;
+  }
+
+  #sec13 > h2 > a, #sec14 > h2 > a{
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  #sec14{
+    background-color: var(--footer-shade);
+    border-right:3px solid var(--border-color);
+    padding: 5px 12% 5px 12%;
+    height: 40%;
+    color: var(--text-color);
+  }
+
+  #sec15{
+    background-color: var(--footer-shade);
+    padding: 20px 12% 19px 12%;
+    height: 40%;
+  }
+
+  @media screen and (max-width:1024px) {
+    body{
+      font-size: small;
+    }
+
+    nav > ul > li:nth-child(n + 1){
+      margin-left: 3%;
+      font-size: 140%;
+    }
+
+    #sec1{
+      width: 100%;
+      height: 100%;
+    }
+
+    #sec1 img{
+      border-bottom: var(--border);
+      width: 100%;
+      width: 100%;
+    }
+
+    #sec2{
+      border-left: var(--border);
+    }
+
+    #sec2 h1{
+      margin-left: 0;
+    }
+    #sec12{
+      display: block;
+      width: 80%;
+      height: 100%;
+      padding: 10% 2% 0 2%;
+    }
+
+    #experience-tile img{
+      padding: 30% 10% 0 10%;
+      height: 100%;
+      width: 100%;
+    }
+
+    #sec6{
+      margin-top: 10%;
+    }
+
+    #sec6 ul{
+      padding: 0 0;
+    }
+
+    #sec7 {
+      font-size: 70%;
+    }
+    #sec7 >ul{
+      font-size: 80%;
+      margin-left: -30%;
+    }
+
+    #sec8{
+      width: 50%;
+      padding: 20% 8%;
+    }
+
+    #sec9{
+      font-size: medium;
+    }
+
+    #sec10 {
+      display: block;
+      width: 100%;
+      min-height: 100%;
+    }
+
+    #sec10 h2{
+      padding-top: 20px;
+      margin-left: 30%;
+    }
+
+    #sec10 img{
+      object-fit: scale-down;
+      max-width: 100%;
+    }
+
+    #sec12 img{
+      width: 100%;
+      height: 100%;
+    }
+
+    #sec12 h2{
+      padding-left: 50px;
+    }
+
+    #sec15{
+      font-size: smaller;
+      padding: 20px 6% 19px 6%;
+      height: 40%;
+    }
+  }
+
+  @media screen and (max-width:768px){
+
+    #nav-title{
+      padding: 30px 1% 30px 1%;
+      font-size: 120%;
+    }
+
+    nav > ul > li:nth-child(n + 1){
+      margin-left: 1%;
+      font-size: 100%;
+    }
+
+    #sec4 {
+      border-right:2px solid var(--border-color);
+      min-height: 80%;
+      padding: 15% 2% 142px 10%;
+    }
+
+    #sec4 img{
+      width: 60%;
+    }
+
+    #sec8{
+      width: 30%;
+      padding: 20% 2%;
+    }
+
+    #sec9 {
+      font-size: small;
+    }
+
+    #sec15{
+      display: block;
+
+      font-size: smaller;
+      padding: 20px 2% 19px 2%;
+      font-size: 10%;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
