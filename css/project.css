@@ -97,7 +97,7 @@ nav > ul > li:nth-child(n + 1){
   text-align: center;
   background-color: var(--border-color);
   padding: 1%;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 .project-list{
@@ -108,5 +108,34 @@ nav > ul > li:nth-child(n + 1){
   display: block;
   background-color: var(--light-background-color);
   border: var(--border);
-  margin: 1.5%;
+  margin: 3.5%;
+}
+
+.card-title{
+  font-size: large;
+  position: relative;
+  top: 7%;
+  left: 7%;
+  max-width: 70%;
+  margin-bottom: 3%;
+}
+
+.card-summary{
+  position: relative;
+  top: 12%;
+  left: 10%;
+  overflow-wrap: break-word;
+  max-width: 80%;
+  margin: 0 0;
+  margin-bottom: 3%;
+}
+
+.project-card a{
+  display: inline-block;
+  font: italic;
+  color: var(--border-color);
+  font-size: medium;
+  margin-left: 30%;
+  text-decoration: none;
+  margin-bottom: 3%;
 }
