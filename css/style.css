@@ -223,7 +223,19 @@
     border-right:3px solid var(--border-color);
     width: 685px;
     min-height: 100%;
-    padding: 100px 10% 397px 10%;
+    padding: 200px 10% 397px 10%;
+  }
+
+  #sec8 h2 a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: larger;
+  }
+
+  #sec8 > a{
+    font-size: large;
+    text-decoration: none;
+    color: var(--text-color);
   }
 
 
