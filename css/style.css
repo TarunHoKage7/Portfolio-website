@@ -485,16 +485,17 @@
       top: 0;
       left: 1.5%;
       display: block;
-      font-size: smaller;
+      font-size:xx-small;
       z-index: 1;
       border: none;
     }
 
     #closeAlert{
       top: 0;
-      left: 16%;
+      right: -5%;
       font-size: medium;
       position: relative;
+      z-index: 1;
     }
 
     #nav-title{
@@ -514,5 +515,13 @@
 
     #sec9{
       padding: 100px 1% 217px 1%;
+    }
+  
+    #sec13{
+      padding: 5%;
+    }
+
+    #sec14{
+      padding: 5%;
     }
   }
