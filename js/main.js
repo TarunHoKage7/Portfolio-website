@@ -32,8 +32,13 @@ addEventListeners();
 changeExperienceTileData();
 
 function addEventListeners() {
+    document.getElementById("closeAlert").addEventListener("click", closeAlertClicked);  
     document.getElementById("right-arrow").addEventListener("click", rightArrowClicked);  
     document.getElementById("left-arrow").addEventListener("click", leftArrowClicked);
+}
+
+function closeAlertClicked() {
+    document.getElementById("alert").style.display = "none";
 }
 
 function leftArrowClicked() {

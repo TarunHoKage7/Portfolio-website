@@ -47,6 +47,11 @@
   /* ADDITIONAL STYLES
   /*******************************************/
   
+  #alert{
+    display: none;
+  }
+
+
   nav > ul{
     list-style-type: none;
     margin: 0 0;
@@ -472,3 +477,42 @@
     }
   }
 
+  @media screen and (max-width:476px){
+
+    #alert{
+      background-color: var(--light-background-color);
+      position: fixed;
+      top: 0;
+      left: 1.5%;
+      display: block;
+      font-size: smaller;
+      z-index: 1;
+      border: none;
+    }
+
+    #closeAlert{
+      top: 0;
+      left: 16%;
+      font-size: medium;
+      position: relative;
+    }
+
+    #nav-title{
+      padding: 30px 0 30px 0;
+      font-size: 100%;
+      border-left: none;
+    }
+
+    nav > ul > li:nth-child(n + 1){
+      margin-left: 0;
+      font-size: 80%;
+    }
+
+    #sec7{
+      padding: 10% 2% 10% 2%;
+    }
+
+    #sec9{
+      padding: 100px 1% 217px 1%;
+    }
+  }
