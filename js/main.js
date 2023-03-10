@@ -25,6 +25,12 @@ let experiencePageData = {
     }
 };
 
+let induvidualProjectData = {
+    0: {
+        
+    }
+}
+
 //if(checkMobileScreen()) {
 //    setTimeout( eraseDisplay(), 10000);
 //}
