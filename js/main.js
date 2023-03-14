@@ -26,9 +26,53 @@ let experiencePageData = {
 };
 
 let induvidualProjectData = {
-    0: {
-        
+    web: {
+        "worksy": {
+            img: ".",
+            link: ".",
+            addnlPics: {
+                0: ".",
+                1: "."
+            },
+            summary: ".",
+            techStack: {
+                0: ".",
+                1: "."
+            },
+        },
+    },
+
+    android: {
+        "hospital-app": {
+            img: ".",
+            link: ".",
+            addnlPics: {
+                0: ".",
+                1: "."
+            },
+            summary: ".",
+            techStack: {
+                0: ".",
+                1: "."
+            },
+        },    
     }
+    ,
+    iot: {
+        "rfid": {
+            img: ".",
+            link: ".",
+            addnlPics: {
+                0: ".",
+                1: "."
+            },
+            summary: ".",
+            techStack: {
+                0: ".",
+                1: "."
+            },
+        },
+    },
 }
 
 //if(checkMobileScreen()) {
