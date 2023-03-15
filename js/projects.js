@@ -235,7 +235,7 @@ function renderContent(projSec, projName){
         document.querySelectorAll(".category").forEach(ele =>  ele.style.display = "none");
         document.querySelector(".head").style.display = "block";
         document.querySelector(".title").innerHTML = induvidualProjectData[projSec][projName].title;
-        document.querySelector(".title-img").src = induvidualProjectData[projSec][projName].img;
+        document.querySelector(".title-img").backgroundImage = `url(${induvidualProjectData[projSec][projName].img})`;
         document.querySelector(".description").innerHTML = induvidualProjectData[projSec][projName].summary;
         document.querySelector("iframe").src = induvidualProjectData[projSec][projName].link;
     }

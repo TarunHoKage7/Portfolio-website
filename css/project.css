@@ -144,6 +144,29 @@ nav > ul > li:nth-child(n + 1){
   display: none;
 }
 
+.head{
+  display: block;
+}
+
+.head > h3{
+  text-align: center;
+  margin: 5%;
+  font-size: 30px;
+}
+
+.description{
+  text-align: center;
+  line-height: 1.15em;
+  font-size: large;
+  margin: 3%;
+}
+
+iframe{
+  width: 500px;
+  height: 350px;
+  margin: 5% 0 5% 35%;
+}
+
 /* .bus{
   background-image: url(/assets/bustrack.JPEG), linear-gradient(var(--shaded-background-color), var(--light-background-color));
   height: 100%; 
