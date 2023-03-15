@@ -141,7 +141,7 @@ nav > ul > li:nth-child(n + 1){
 }
 
 .bus{
-  background-image: url(/assets/bustrack.JPEG), linear-gradient(var(--shaded-background-color), var(--light-background-color));
+  /* background-image: url(/assets/bustrack.JPEG), linear-gradient(var(--shaded-background-color), var(--light-background-color)); */
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
