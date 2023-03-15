@@ -221,20 +221,22 @@ function addEventListeners() {
     document.querySelector(".web > ul > li:nth-child(5)").addEventListener("click", renderContent("web", "FRONTEND-CHALLENGES"));
     document.querySelector(".web > ul > li:nth-child(6)").addEventListener("click", renderContent("web", "WEB-CALCULATOR"));
     document.querySelector(".web > ul > li:nth-child(7)").addEventListener("click", renderContent("web", "NOTEPAD-LOCALSTORAGE"));
-    document.querySelector(".iot > ul > li:nth-child(1)").addEventListener("click", renderContent(induvidualProjectData["iot"]["RFID-door-locking-system"]));
-    document.querySelector(".iot > ul > li:nth-child(2)").addEventListener("click", renderContent(induvidualProjectData["iot"]["HOME-AUTOMATION-SYSTEM"]));
-    document.querySelector(".iot > ul > li:nth-child(3)").addEventListener("click", renderContent(induvidualProjectData["iot"]["Intruder-Detection-System"]));
-    document.querySelector(".android > ul > li:nth-child(1)").addEventListener("click", renderContent(induvidualProjectData["android"]["EXAMM-SNAPP"]));
-    document.querySelector(".android > ul > li:nth-child(2)").addEventListener("click", renderContent(induvidualProjectData["android"]["hospital-app"]));
-    document.querySelector(".android > ul > li:nth-child(3)").addEventListener("click", renderContent(induvidualProjectData["android"]["Calculator"]));
-}
+    document.querySelector(".iot > ul > li:nth-child(1)").addEventListener("click", renderContent("iot", "RFID-door-locking-system"));
+    document.querySelector(".iot > ul > li:nth-child(2)").addEventListener("click", renderContent("iot", "HOME-AUTOMATION-SYSTEM"));
+    document.querySelector(".iot > ul > li:nth-child(3)").addEventListener("click", renderContent("iot", "Intruder-Detection-System"));
+    document.querySelector(".android > ul > li:nth-child(1)").addEventListener("click", renderContent("android", "EXAMM-SNAPP"));
+    document.querySelector(".android > ul > li:nth-child(2)").addEventListener("click", renderContent("android", "hospital-app"));
+    document.querySelector(".android > ul > li:nth-child(3)").addEventListener("click", renderContent("android", "Calculator"));
+    }
+
 
 function renderContent(projSec, projName){
     return function () {
-        window.location.href = "/html/induvidualProj.html"
+        document.querySelectorAll(".category").forEach(ele =>  ele.style.display = "none");
+        document.querySelector(".head").style.display = "block";
         document.querySelector(".title").innerHTML = induvidualProjectData[projSec][projName].title;
         document.querySelector(".title-img").src = induvidualProjectData[projSec][projName].img;
         document.querySelector(".description").innerHTML = induvidualProjectData[projSec][projName].summary;
-        document.querySelector("iframe").href = induvidualProjectData[projSec][projName].link;
+        document.querySelector("iframe").src = induvidualProjectData[projSec][projName].link;
     }
 }

@@ -140,6 +140,10 @@ nav > ul > li:nth-child(n + 1){
   margin-bottom: 3%;
 }
 
+.hide{
+  display: none;
+}
+
 /* .bus{
   background-image: url(/assets/bustrack.JPEG), linear-gradient(var(--shaded-background-color), var(--light-background-color));
   height: 100%; 
