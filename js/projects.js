@@ -232,6 +232,7 @@ function addEventListeners() {
 
 function renderContent(projSec, projName){
     return function () {
+        document.querySelector(".head").classList.remove("hide");
         document.querySelectorAll(".category").forEach(ele =>  ele.style.display = "none");
         document.querySelector(".head").style.display = "block";
         document.querySelector(".title").innerHTML = induvidualProjectData[projSec][projName].title;
