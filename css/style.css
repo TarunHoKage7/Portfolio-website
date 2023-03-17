@@ -218,6 +218,7 @@
     padding-top: 3%;
     font-size: larger;
     margin: 0 0;
+    list-style-type: none;
   }
   #sec7 li{
     padding: 5% 0 2% 0;

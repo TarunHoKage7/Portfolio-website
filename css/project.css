@@ -171,11 +171,12 @@ nav > ul > li:nth-child(n + 1){
 }
 
 iframe{
-  width: 1024px;
-  height: 768px;
-  margin: 5% 0 5% 15%;
+  width: 1200px;
+  height: 600px;
+  margin: 5% 0 5% 5%;
   border: var(--border);
   padding: 20px;
+  background-color: white;
 }
 
 /* .bus{
