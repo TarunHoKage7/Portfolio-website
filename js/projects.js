@@ -121,11 +121,14 @@ let induvidualProjectData = {
 
     android: {
         "EXAMM-SNAPP": {
-            img: ".",
+            img: "/assets/exm1.jpg",
             link: ".",
             addnlPics: {
-                0: ".",
-                1: "."
+                0: "/assets/exm1.jpg",
+                1: "/assets/exm2.jpg",
+                2: "/assets/exm3.jpg",
+                3: "/assets/exm4.jpg",
+                4: "/assets/exm5.jpg",
             },
             summary: "Exam snap is an android application that was built to be a one-stop destination for all academic resources for everybody from my college. It was connected to MongoDB to allow retrieval and downloads for offline viewing capabilities. This app was built using flutter. It uses firebase to store and retrieve data.",
             techStack: {
@@ -136,11 +139,12 @@ let induvidualProjectData = {
         }, 
         
         "hospital-app": {
-            img: ".",
+            img: "/assets/hosp1.jpg",
             link: ".",
             addnlPics: {
-                0: ".",
-                1: "."
+                0: "/assets/hosp1.jpg",
+                1: "/assets/hosp2.jpg",
+                2: "/assets/hosp3.jpg",
             },
             summary: "I built this app during the COVID-19 pandemic. Most of the hospitals and people were suffering due to scarcity of resources and even more hardships for patients due to their need for complete isolation. It was to be a one-stop destination for anybody needing critical resources like food, medicine, oxygen, etc. I have built this app using Flutter.",
             techStack: {
@@ -151,11 +155,11 @@ let induvidualProjectData = {
         },    
 
         "Calculator": {
-            img: ".",
+            img: "/assets/calc1.jpg",
             link: ".",
             addnlPics: {
-                0: ".",
-                1: "."
+                0: "/assets/calc1.jpg",
+                1: "/assets/calc2.jpg",
             },
             summary: "This calculator was built to be connected to the cloud to retrieve all my previous calculations and queries.  It is built using flutter. It uses firebase to store all calculations in real time.",
             techStack: {
@@ -236,8 +240,13 @@ function renderContent(projSec, projName){
         document.querySelectorAll(".category").forEach(ele =>  ele.style.display = "none");
         document.querySelector(".head").style.display = "block";
         document.querySelector(".title").innerHTML = induvidualProjectData[projSec][projName].title;
-        document.querySelector(".title-img").backgroundImage = `url(${induvidualProjectData[projSec][projName].img})`;
+        document.querySelector(".title-img").backgroundImage = induvidualProjectData[projSec][projName].img;
         document.querySelector(".description").innerHTML = induvidualProjectData[projSec][projName].summary;
-        document.querySelector("iframe").src = induvidualProjectData[projSec][projName].link;
+        if(induvidualProjectData[projSec][projName].link == "."){
+            document.querySelector("iframe").style.display = "none"
+        }
+        else{
+            document.querySelector("iframe").src = induvidualProjectData[projSec][projName].link;
+        }
     }
 }

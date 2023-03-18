@@ -171,11 +171,13 @@ nav > ul > li:nth-child(n + 1){
 }
 
 iframe{
+  display: block;
   width: 1200px;
   height: 600px;
   margin: 5% 0 5% 5%;
+  align-self: center;
   border: var(--border);
-  padding: 20px;
+  padding: 10px;
   background-color: white;
 }
 
