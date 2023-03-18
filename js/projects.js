@@ -3,7 +3,7 @@ let induvidualProjectData = {
         "worksy": {
             title: "Worksy",
             img: ".",
-            link: "https://github.com/TarunHoKage7/worksy",
+            link: ".",
             addnlPics: {
                 0: ".",
                 1: "."
@@ -22,7 +22,7 @@ let induvidualProjectData = {
         "Bus-Track": {
             title: "Bus Track",
             img: "/assets/bustrack.JPEG",
-            link: "https://github.com/TarunHoKage7/BusTrack",
+            link: ".",
             addnlPics: {
                 0: "/assets/bustrack.JPEG",
                 1: "."
@@ -121,6 +121,7 @@ let induvidualProjectData = {
 
     android: {
         "EXAMM-SNAPP": {
+            title: "Exam-Snap",
             img: "/assets/exm1.jpg",
             link: ".",
             addnlPics: {
@@ -139,6 +140,7 @@ let induvidualProjectData = {
         }, 
         
         "hospital-app": {
+            title: "Hospital App",
             img: "/assets/hosp1.jpg",
             link: ".",
             addnlPics: {
@@ -155,6 +157,7 @@ let induvidualProjectData = {
         },    
 
         "Calculator": {
+            title: "Calculator",
             img: "/assets/calc1.jpg",
             link: ".",
             addnlPics: {
@@ -240,7 +243,7 @@ function renderContent(projSec, projName){
         document.querySelectorAll(".category").forEach(ele =>  ele.style.display = "none");
         document.querySelector(".head").style.display = "block";
         document.querySelector(".title").innerHTML = induvidualProjectData[projSec][projName].title;
-        document.querySelector(".title-img").backgroundImage = induvidualProjectData[projSec][projName].img;
+        document.querySelector(".title-img > img").src = induvidualProjectData[projSec][projName].img;
         document.querySelector(".description").innerHTML = induvidualProjectData[projSec][projName].summary;
         if(induvidualProjectData[projSec][projName].link == "."){
             document.querySelector("iframe").style.display = "none"
