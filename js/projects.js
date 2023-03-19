@@ -15,7 +15,7 @@ let induvidualProjectData = {
                 2: "/assets/js.png",
                 3: "/assets/node.png",
                 4: "/assets/express.png",
-                5: "/assrts/mongo.png",
+                5: "/assets/mongo.png",
             },
         },
 
@@ -34,7 +34,7 @@ let induvidualProjectData = {
                 2: "/assets/js.png",
                 3: "/assets/node.png",
                 4: "/assets/express.png",
-                5: "/assrts/mongo.png",
+                5: "/assets/mongo.png",
             },
         },
 
