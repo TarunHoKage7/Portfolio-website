@@ -182,8 +182,8 @@ iframe{
 }
 
 .title-img{
-  width: 300px;
-  height: 540px;
+  max-width: 300px;
+  max-height: 540px;
   margin-left: 40%;
 }
 
