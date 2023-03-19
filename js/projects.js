@@ -175,6 +175,7 @@ let induvidualProjectData = {
     ,
     iot: {
         "RFID-door-locking-system": {
+            title: "RFID Door Locking System",
             img: ".",
             link: ".",
             addnlPics: {
@@ -190,6 +191,7 @@ let induvidualProjectData = {
         },
 
         "HOME-AUTOMATION-SYSTEM": {
+            title: "Home Automation System",
             img: ".",
             link: ".",
             addnlPics: {
@@ -205,6 +207,7 @@ let induvidualProjectData = {
         },
 
         "Intruder-Detection-System": {
+            title: "Intruder Detection System",
             img: ".",
             link: ".",
             addnlPics: {

@@ -161,10 +161,12 @@ nav > ul > li:nth-child(n + 1){
 }
 
 .description{
+  display: block;
   text-align: center;
   line-height: 1.55em;
   font-size: larger;
   margin: 3%;
+  margin-top: 10%;
   border: var(--border);
   border-radius: 10px;
   padding: 30px;
