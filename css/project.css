@@ -145,7 +145,7 @@ nav > ul > li:nth-child(n + 1){
 }
 
 .hide *{
-  display: none;
+  display: none!important;
 }
 
 .head{

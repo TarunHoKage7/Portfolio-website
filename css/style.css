@@ -160,7 +160,7 @@
   #sec5{
     position: relative;
     background-color: var(--shaded-background-color);
-    border-right:3px solid var(--border-color);
+    border-right:var(--border);
     width: 39%;
     min-height: 100%;
     padding: 12% 5% 8% 5%;
@@ -210,7 +210,7 @@
 
   #sec7{
     background-color: var(--shaded-background-color);
-    border-right:3px solid var(--border-color);
+    border-right:var(--border);
     padding: 10% 8% 10% 8%;
   }
 
@@ -228,7 +228,7 @@
   #sec8{
     background-attachment: local;
     background-image:  url("/assets/sec8.avif");
-    border-right:3px solid var(--text-color);
+    border-right:var(--border);
     width: 685px;
     min-height: 100%;
     padding: 200px 10% 397px 10%;
