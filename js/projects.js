@@ -213,8 +213,8 @@ let induvidualProjectData = {
             img: "/assets/ids1.jpg",
             link: ".",
             addnlPics: {
-                0: "/assets/ids2.jpg",
-                1: "/assets/ids3.jpg",
+                0: "/assets/ids2.png",
+                1: "/assets/ids3.jfif",
             },
             summary: "An intruder detection system built over NodeMCU is a project that uses a combination of sensors, such as PIR motion sensors, to detect when someone enters a room or opens a door. The system is built using a NodeMCU board, which is a low-cost microcontroller board that provides built-in Wi-Fi connectivity. The system works by sending notifications to your phone or email when an intrusion is detected. To build the system, you will need some programming knowledge and experience working with electronics, as well as the Arduino IDE software tool. The system provides an added layer of security for your home or office and can be a fun and educational project to build. The intruder detection system built over NodeMCU can also be expanded to include additional sensors and features, such as a loud alarm or security camera integration. The system can be programmed to detect specific intrusion patterns or send notifications to different people depending on the time of day or the severity of the intrusion. With its built-in Wi-Fi connectivity, the system can also be accessed remotely, allowing you to check the status of your home or office from anywhere with an internet connection.",
             techStack: {
