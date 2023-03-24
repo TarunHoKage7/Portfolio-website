@@ -176,15 +176,17 @@ let induvidualProjectData = {
     iot: {
         "RFID-door-locking-system": {
             title: "RFID Door Locking System",
-            img: ".",
+            img: "/assets/rfid1.jpg",
             link: ".",
             addnlPics: {
-                0: ".",
-                1: "."
+                0: "/assets/rfid1.jpg",
+                1: "/assets/rfid2.jpg",
+                2: "/assets/rfid3.jpg",
+                3: "/assets/rfid4.jpg",
             },
             summary: "RFID door locking systems built with Arduino are becoming increasingly popular for securing homes, offices, and other establishments. This system works by allowing access only to those who have a valid RFID tag or card. When the user swipes their tag, the Arduino board reads the tag's unique identifier and compares it to a pre-programmed list of authorized users. If the tag is valid, the Arduino sends a signal to the locking mechanism, allowing the door to unlock. The system requires an RFID reader, a locking mechanism, an Arduino board, and some programming knowledge. The RFID reader reads the data from the RFID tag, and the Arduino board processes that data to determine whether access should be granted or not. If access is granted, the Arduino sends a signal to the locking mechanism to unlock the door.",
             techStack: {
-                0: "/assets/embeedded-c.png",
+                0: "/assets/embedded-c.png",
                 1: "/assets/arduino.png",
                 2: "/assets/sensors.png",
             },
@@ -200,7 +202,7 @@ let induvidualProjectData = {
             },
             summary: "Home Automation:-A simple home automation system built over NodeMCU allows you to remotely control your home appliances using a Wi-Fi connection and a mobile application. The system uses a NodeMCU board, which is a low-cost microcontroller board that provides built-in Wi-Fi connectivity. To build the system, you will need some programming knowledge and experience working with electronics, as well as the Arduino IDE software tool. The system can help make your home more convenient and efficient while also providing a fun and educational project. To build a simple home automation system using NodeMCU, you will need to have some basic programming knowledge and experience working with electronics. You will also need to download and install the Arduino Integrated Development Environment (IDE), which is a software tool that is used to write and upload code to the NodeMCU board.",
             techStack: {
-                0: "/assets/embeedded-c.png",
+                0: "/assets/embedded-c.png",
                 1: "/assets/arduino.png",
                 2: "/assets/sensors.png",
             },
@@ -208,15 +210,15 @@ let induvidualProjectData = {
 
         "Intruder-Detection-System": {
             title: "Intruder Detection System",
-            img: ".",
+            img: "/assets/ids1.jpg",
             link: ".",
             addnlPics: {
-                0: ".",
-                1: "."
+                0: "/assets/ids2.jpg",
+                1: "/assets/ids3.jpg",
             },
             summary: "An intruder detection system built over NodeMCU is a project that uses a combination of sensors, such as PIR motion sensors, to detect when someone enters a room or opens a door. The system is built using a NodeMCU board, which is a low-cost microcontroller board that provides built-in Wi-Fi connectivity. The system works by sending notifications to your phone or email when an intrusion is detected. To build the system, you will need some programming knowledge and experience working with electronics, as well as the Arduino IDE software tool. The system provides an added layer of security for your home or office and can be a fun and educational project to build. The intruder detection system built over NodeMCU can also be expanded to include additional sensors and features, such as a loud alarm or security camera integration. The system can be programmed to detect specific intrusion patterns or send notifications to different people depending on the time of day or the severity of the intrusion. With its built-in Wi-Fi connectivity, the system can also be accessed remotely, allowing you to check the status of your home or office from anywhere with an internet connection.",
             techStack: {
-                0: "/assets/embeedded-c.png",
+                0: "/assets/embedded-c.png",
                 1: "/assets/arduino.png",
                 2: "/assets/sensors.png",
             },
