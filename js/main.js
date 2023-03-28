@@ -234,6 +234,7 @@ let induvidualProjectData = {
 //if(checkMobileScreen()) {
 //    setTimeout( eraseDisplay(), 10000);
 //}
+
 addEventListeners();
 changeExperienceTileData();
 
