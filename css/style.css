@@ -84,6 +84,13 @@
 
   nav > ul > li:nth-child(n + 1){
     margin-left: 5%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  nav > ul > li:nth-child(n + 2):hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 3px #3f8897;
   }
 
   .row{
@@ -181,6 +188,13 @@
     /*padding: 25px;*/
     cursor: pointer;
     text-shadow: var(--border-color) 2px 0 10px;
+    transition: all 0.3s ease;
+  }
+
+  #left-arrow:hover{
+    transform: translateX(-2px);
+    box-shadow: 5px 5px 3px #3f8897;
+    
   }
 
   #right-arrow{
@@ -191,6 +205,12 @@
     font-size: xx-large;
     cursor: pointer;
     text-shadow: var(--border-color) 2px 0 10px;
+    transition: all 0.3s ease;
+  }
+
+  #right-arrow:hover{
+    transform: translateX(2px);
+    box-shadow: -5px 5px 3px #3f8897;
   }
 
   #experience-tile img{
@@ -238,6 +258,7 @@
     text-decoration: none;
     color: var(--border-color);
     font-size: larger;
+    transition: all 0.3s ease;
   }
 
   #sec8 > a{
@@ -246,6 +267,9 @@
     color: var(--text-color);
   }
 
+  #sec8 h2:hover{
+    transform: translateY(-2px);
+  }
 
   #sec9{
     background-color: var(--shaded-background-color);
@@ -302,8 +326,11 @@
   }
 
   #sec12 h2{
-
     padding-left: 10%;
+  }
+
+  #sec12 h2:hover{
+    transform: translateY(-2px);
   }
 
   .footer{
@@ -319,9 +346,14 @@
     padding: 5px 12% 5px 12%;
   }
 
+  #sec13 > h2:hover{
+    transform: translateY(-2px);
+  }
+
   #sec13 > h2 > a, #sec14 > h2 > a{
     text-decoration: none;
     color: var(--text-color);
+    transition: all 0.3s ease;
   }
 
   #sec14{
@@ -329,6 +361,10 @@
     padding: 5px 12% 5px 12%;
     height: 40%;
     color: var(--text-color);
+  }
+
+  #sec14 > *:hover{
+    transform: translateY(-2px);
   }
 
   #sec15{
