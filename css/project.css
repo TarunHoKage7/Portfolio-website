@@ -207,6 +207,24 @@ iframe{
   max-width: 300px;
   max-height: 540px;
 }
+
+@keyframes drop-in-proj {
+  from {
+    transform:
+      rotate(-30deg) translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform:
+      rotate(0deg) translateY(0%);
+    opacity: 1;
+  }
+}
+
+section {
+  animation: drop-in-proj 900ms;
+  animation-timing-function: linear;
+}
 /* .bus{
   background-image: url(/assets/bustrack.JPEG), linear-gradient(var(--shaded-background-color), var(--light-background-color));
   height: 100%; 

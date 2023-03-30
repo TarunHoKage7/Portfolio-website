@@ -300,6 +300,7 @@ function eraseDisplay() {
 }*/
 
 /*async function animateAwaitingAnimationText(awaitingAnimationText) {
+
     document.querySelector("#experience-tile > h2").innerText = temp();
 
     function temp() {
