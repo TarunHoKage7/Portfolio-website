@@ -3,7 +3,7 @@ let experiencePageData = {
     0:{
         title: "Cloud Support Associate - AWS",
         time: "July 2023 - Current",
-        about: "- Collaborated and helped solve 200+ production impaired AWS customer environments. Expertise in AWS Lambda, API Gateway, SQS, SNS, CloudWatch, VPC.",
+        about: "- Collaborated and helped solve 200+ production impaired AWS customer environments. Expertise in AWS Lambda, API Gateway, SQS, SNS, CloudWatch, VPC, and IAM",
         imgsrc: "/assets/aws_img.png",
         imgalt: "aws logo"
     },
