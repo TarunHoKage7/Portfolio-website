@@ -1,6 +1,14 @@
 let experiencePageIndex = 0;
 let experiencePageData = {
-    0: {
+    0:{
+        title: "Cloud Support Associate - AWS",
+        time: "July 2023 - Current",
+        about: "- Collaborated and helped solve 200+ production impaired AWS customer environments. Expertise in AWS Lambda, API Gateway, SQS, SNS, CloudWatch, VPC.",
+        imgsrc: "/assets/aws_img.png",
+        imgalt: "aws logo"
+    },
+
+    1: {
         title: "Cloud Support Associate Intern - AWS",
         time: "March 2023 - July 2023",
         about: "-This is my ongoing internship at amazon web services(aws) as a cloud support associate intern.",
@@ -8,7 +16,7 @@ let experiencePageData = {
         imgalt: "aws logo"
     },
 
-    1: {
+    2: {
         title: "Public Speaker -ACM Student chapter",
         time: "November 2021 - Present",
         about: "-Spoke at workshops on Web-development, Github, and cybersecurity. I was also a part of the organizing committee of a city-level hackathon.",
@@ -16,7 +24,7 @@ let experiencePageData = {
         imgalt: "acm logo"
     },
 
-    2: {
+    3: {
         title: "Machine Learning intern at zebo.ai",
         time: "April 2021 - May 2021",
         about: "-We have worked on a model to classify & localize a target feature. I was coordinating our team's tasks and was part of the data mining team.",
