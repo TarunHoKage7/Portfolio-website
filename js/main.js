@@ -11,7 +11,7 @@ let experiencePageData = {
     1: {
         title: "Cloud Support Associate Intern - AWS",
         time: "March 2023 - July 2023",
-        about: "-This is my ongoing internship at amazon web services(aws) as a cloud support associate intern.",
+        about: "-As a cloud support associate intern, I have helped build an internal(IaaS) environment to help upskill other engineers in troubleshooting IAM related issue scenarios.",
         imgsrc: "/assets/aws_img.png",
         imgalt: "aws logo"
     },
