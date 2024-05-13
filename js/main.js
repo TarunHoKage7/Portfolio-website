@@ -18,7 +18,7 @@ let experiencePageData = {
 
     2: {
         title: "Public Speaker -ACM Student chapter",
-        time: "November 2021 - Present",
+        time: "November 2021 - July 2023",
         about: "-Spoke at workshops on Web-development, Github, and cybersecurity. I was also a part of the organizing committee of a city-level hackathon.",
         imgsrc: "/assets/acm_img.png",
         imgalt: "acm logo"
