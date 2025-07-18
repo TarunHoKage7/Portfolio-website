@@ -1,5 +1,27 @@
 let induvidualProjectData = {
     web: {
+        "PeopleOps": {
+            img: ".",
+            link: "https://github.com/TarunHoKage7/HRMS",
+            addnlPics: {
+                0: ".",
+                1: "."
+            },
+            summary: "PeopleOps is an HRMS SaaS application designed and built for SMBs. It allows organizations, to manage teams, managers and employees, manage leaves, and assign a leave calendar for proper calculation, Manage shifts, Manage Geolocation based attendance, Create and maintain Org Docs including compliance docs, Generate and disburse payslips.",
+            techStack: {
+                0: "Cloud Provider: AWS",
+                1: "Web Frontend: React.js",
+                2: "Mobile Frontend: React Native (for iOS & Android)",
+                3: "Backend Compute: AWS Lambda (Python runtime)",
+                4: "API Layer: AWS API Gateway (REST)",
+                5: "Database: AWS Aurora (PostgreSQL-Compatible Edition)",
+		6: "Authentication: AWS Cognito",
+		7: "File Storage: AWS S3",
+		8: "Notification: AWS SNS, AWS SES",
+		9: "Infrastructure as Code (IaC): AWS CDK",
+		10: "CI/CD: TBD",
+            },
+        },
         "worksy": {
             title: "Worksy",
             img: ".",
