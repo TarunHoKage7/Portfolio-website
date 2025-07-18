@@ -1,14 +1,21 @@
 let experiencePageIndex = 0;
 let experiencePageData = {
-    0:{
+0:{
+        title: "Cloud Support Engineer 1 - AWS",
+        time: "October 2024 - Current",
+        about: "Resolved 600+ issues including production outage, feature launches, development of Architecture, improving efficiency, and security. Onboarded to special escalation teams to handle complex issues, and worked with Service teams to deliver results to the customers.",
+        imgsrc: "/assets/aws_img.png",
+        imgalt: "aws logo"
+    },
+    1:{
         title: "Cloud Support Associate - AWS",
-        time: "July 2023 - Current",
-        about: "- Collaborated and helped solve 200+ production impaired AWS customer environments. Expertise in AWS Lambda, API Gateway, SQS, SNS, CloudWatch, VPC, and IAM",
+        time: "July 2023 - September 2024",
+        about: "Worked with enterprise tier customers to troubleshoot all severity issues, architect, and deploy solutions to build their cloud infrastructure. Worked across domains with services like Lambda, API Gateway, IAM, VPC, RDS, Cognito, Connect, SNS, SQS, Connect. CloudTrial",
         imgsrc: "/assets/aws_img.png",
         imgalt: "aws logo"
     },
 
-    1: {
+    2: {
         title: "Cloud Support Associate Intern - AWS",
         time: "March 2023 - July 2023",
         about: "-As a cloud support associate intern, I have helped build an internal(IaaS) environment to help upskill other engineers in troubleshooting IAM related issue scenarios.",
@@ -16,7 +23,7 @@ let experiencePageData = {
         imgalt: "aws logo"
     },
 
-    2: {
+    3: {
         title: "Public Speaker -ACM Student chapter",
         time: "November 2021 - July 2023",
         about: "-Spoke at workshops on Web-development, Github, and cybersecurity. I was also a part of the organizing committee of a city-level hackathon.",
@@ -24,7 +31,7 @@ let experiencePageData = {
         imgalt: "acm logo"
     },
 
-    3: {
+    4: {
         title: "Machine Learning intern at zebo.ai",
         time: "April 2021 - May 2021",
         about: "-We have worked on a model to classify & localize a target feature. I was coordinating our team's tasks and was part of the data mining team.",
@@ -35,6 +42,28 @@ let experiencePageData = {
 
 let induvidualProjectData = {
     web: {
+	"PeopleOps": {
+            img: ".",
+            link: "https://github.com/TarunHoKage7/HRMS",
+            addnlPics: {
+                0: ".",
+                1: "."
+            },
+            summary: "PeopleOps is an HRMS SaaS application designed and built for SMBs. It allows organizations, to manage teams, managers and employees, manage leaves, and assign a leave calendar for proper calculation, Manage shifts, Manage Geolocation based attendance, Create and maintain Org Docs including compliance docs, Generate and disburse payslips.",
+            techStack: {
+                0: "Cloud Provider: AWS",
+                1: "Web Frontend: React.js",
+                2: "Mobile Frontend: React Native (for iOS & Android)",
+                3: "Backend Compute: AWS Lambda (Python runtime)",
+                4: "API Layer: AWS API Gateway (REST)",
+                5: "Database: AWS Aurora (PostgreSQL-Compatible Edition)",
+		6: "Authentication: AWS Cognito",
+		7: "File Storage: AWS S3",
+		8: "Notification: AWS SNS, AWS SES",
+		9: "Infrastructure as Code (IaC): AWS CDK",
+		10: "CI/CD: TBD",
+            },
+        },
         "worksy": {
             img: ".",
             link: "https://github.com/TarunHoKage7/worksy",
