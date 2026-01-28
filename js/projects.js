@@ -45,7 +45,7 @@ let induvidualProjectData = {
                 0: ".",
                 1: "."
             },
-            summary: "A mobile-first PWA for health optimization using AWS CDK (Serverless), Cognito, and Gemini 1.5 Flash API for real-time computer vision meal analysis. Engineered a custom 'Consistency Engine' (DynamoDB) to track cross-domain metrics (Code commits vs. Physical output), utilizing GitHub-style heatmaps for behavioral habit tracking.",
+            summary: "a mobile-first PWA for health optimization using AWS CDK (Serverless), Cognito, and Gemini 1.5 Flash API for real-time computer vision meal analysis.",
             techStack: {
                 0: "Cloud Provider: AWS",
                 1: "PWA Frontend: React.js",
