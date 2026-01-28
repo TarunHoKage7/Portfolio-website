@@ -1,13 +1,20 @@
 let experiencePageIndex = 0;
 let experiencePageData = {
-0:{
+    0:{
+        title: "Founder - Founding developer - PeopleOps (MYHRMS)",
+        time: "March 2025 - Current",
+        about: "Developed a B2B SaaS HRMS application for SMBs, incorporating features such as payroll management, workflows, and attendance tracking. Architected a multi-tenant serverless backend using AWS CDK, ensuring security with Cognito, Secrets Manager, and strict RBAC to meet banking compliance standards. Optimized for scalability, decoupling API Gateway from Lambda using SQS and implementing cursor-based pagination for efficient performance at scale. Engineered a configurable workflow system with multi-level approval chains, dynamic payroll logic, and complex leave policies. Integrated geofencing-based attendance tracking with anomaly reporting. Led market research and pricing negotiations with a cooperative bank while designing a serverless architecture that reduced infrastructure costs by 90%.",
+        imgsrc: "/assets/peopleops_img.png",
+        imgalt: "PeopleOps logo"
+    },
+    1:{
         title: "Cloud Support Engineer 1 - AWS",
         time: "October 2024 - Current",
         about: "Resolved 600+ issues including production outage, feature launches, development of Architecture, improving efficiency, and security. Onboarded to special escalation teams to handle complex issues, and worked with Service teams to deliver results to the customers.",
         imgsrc: "/assets/aws_img.png",
         imgalt: "aws logo"
     },
-    1:{
+    2:{
         title: "Cloud Support Associate - AWS",
         time: "July 2023 - September 2024",
         about: "Worked with enterprise tier customers to troubleshoot all severity issues, architect, and deploy solutions to build their cloud infrastructure. Worked across domains with services like Lambda, API Gateway, IAM, VPC, RDS, Cognito, Connect, SNS, SQS, Connect. CloudTrial",
@@ -15,7 +22,7 @@ let experiencePageData = {
         imgalt: "aws logo"
     },
 
-    2: {
+    3: {
         title: "Cloud Support Associate Intern - AWS",
         time: "March 2023 - July 2023",
         about: "-As a cloud support associate intern, I have helped build an internal(IaaS) environment to help upskill other engineers in troubleshooting IAM related issue scenarios.",
@@ -23,7 +30,7 @@ let experiencePageData = {
         imgalt: "aws logo"
     },
 
-    3: {
+    4: {
         title: "Public Speaker -ACM Student chapter",
         time: "November 2021 - July 2023",
         about: "-Spoke at workshops on Web-development, Github, and cybersecurity. I was also a part of the organizing committee of a city-level hackathon.",
@@ -31,7 +38,7 @@ let experiencePageData = {
         imgalt: "acm logo"
     },
 
-    4: {
+    5: {
         title: "Machine Learning intern at zebo.ai",
         time: "April 2021 - May 2021",
         about: "-We have worked on a model to classify & localize a target feature. I was coordinating our team's tasks and was part of the data mining team.",
