@@ -68,7 +68,44 @@ let induvidualProjectData = {
 		7: "File Storage: AWS S3",
 		8: "Notification: AWS SNS, AWS SES",
 		9: "Infrastructure as Code (IaC): AWS CDK",
-		10: "CI/CD: TBD",
+		10: "CI/CD: Vercel",
+            },
+        },
+        "AI Vidgen Studio": {
+            img: ".",
+            link: "https://github.com/TarunHoKage7/",
+            addnlPics: {
+                0: ".",
+                1: "."
+            },
+            summary: "AI-Driven Media Pipeline & Productivity Engine (Stealth). Architected an end-to-end GenAI video pipeline using Python scripts, LLM Agents, and Stable Diffusion, reducing manual animation labor by ~80%.",
+            techStack: {
+                0: "Unreal Engine 5, sequencer",
+                1: "Stable-diffusion, Forge, ReVAnimated, Wav2Lip-Gan RVC, Gemini API integration (Flash 1.5)",
+                2: "Python Orchestrator, FastAPI",
+                3: "Cloudflare Tunnel for multi channel studio view",
+                4: "Developed 'Lithe,' a mobile-first PWA for health optimization using AWS CDK (Serverless), Cognito, and Gemini 1.5 Flash API for real-time computer vision meal analysis. Engineered a custom 'Consistency Engine' (DynamoDB) to track cross-domain metrics (Code commits vs. Physical output), utilizing GitHub-style heatmaps for behavioral habit tracking. "
+            },
+        },
+        "Lithe": {
+            img: ".",
+            link: "https://github.com/TarunHoKage7/",
+            addnlPics: {
+                0: ".",
+                1: "."
+            },
+            summary: "A mobile-first PWA for health optimization using AWS CDK (Serverless), Cognito, and Gemini 1.5 Flash API for real-time computer vision meal analysis. Engineered a custom 'Consistency Engine' (DynamoDB) to track cross-domain metrics (Code commits vs. Physical output), utilizing GitHub-style heatmaps for behavioral habit tracking.",
+            techStack: {
+                0: "Cloud Provider: AWS",
+                1: "PWA Frontend: React.js",
+                3: "Backend Compute: AWS Lambda (Python runtime)",
+                4: "API Layer: AWS API Gateway (REST)",
+                5: "Database: AWS Aurora (PostgreSQL-Compatible Edition)",
+		6: "Authentication: AWS Cognito",
+		7: "File Storage: AWS S3",
+		8: "Notification: AWS SNS, AWS SES",
+		9: "Infrastructure as Code (IaC): AWS CDK",
+		10: "CI/CD: Vercel",
             },
         },
         "worksy": {
